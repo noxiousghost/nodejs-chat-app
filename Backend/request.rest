@@ -1,0 +1,20 @@
+
+POST http://localhost:3001/authenticate
+Content-Type: application/json
+
+{
+  "username": "sap"
+}
+
+###
+
+# POST http://localhost:3001/signup
+# Content-Type: application/json
+
+# {
+#   "username": "sap",
+#   "secret": "sap123",
+#   "email": "sap@gmail.com",
+#   "first_name": "ashish",
+#   "last_name": "sap"
+# }
